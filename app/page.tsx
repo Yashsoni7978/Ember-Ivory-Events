@@ -2,6 +2,7 @@ import NavBar from "@/components/NavBar";
 import Hero from "@/components/Hero";
 import Services from "@/components/sections/Services";
 import Portfolio from "@/components/sections/Portfolio";
+import Testimonials from "@/components/sections/Testimonials";
 
 export default function Home() {
   return (
@@ -18,8 +19,10 @@ export default function Home() {
       {/* Section 2: Portfolio */}
       <Portfolio />
 
+      {/* Section 3: Testimonials */}
+      <Testimonials />
+
       {/* Temporary anchor target stubs for smooth development until subsequent sections are reviewed */}
-      <div id="testimonials" className="sr-only" aria-hidden="true" />
       <div id="about" className="sr-only" aria-hidden="true" />
       <div id="inquiry" className="sr-only" aria-hidden="true" />
     </main>
