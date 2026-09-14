@@ -5,6 +5,7 @@ import Portfolio from "@/components/sections/Portfolio";
 import Testimonials from "@/components/sections/Testimonials";
 import About from "@/components/sections/About";
 import InquiryFunnel from "@/components/sections/InquiryFunnel";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -29,6 +30,9 @@ export default function Home() {
 
       {/* Section 4: Booking Inquiry Funnel */}
       <InquiryFunnel />
+
+      {/* Section 6: Footer */}
+      <Footer />
     </main>
   );
 }
