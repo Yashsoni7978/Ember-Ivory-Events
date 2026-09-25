@@ -15,7 +15,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-24 sm:py-32 bg-parchment relative border-b border-stone/20 overflow-hidden"
+      className="py-12 sm:py-16 bg-parchment relative border-b border-stone/20 overflow-hidden"
     >
       {/* Background architectural grid */}
       <div
@@ -30,7 +30,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 md:px-12 relative z-10">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-16 sm:mb-20">
+        <div className="max-w-3xl mb-8 sm:mb-10">
           <div className="flex items-center space-x-3 mb-4">
             <span className="w-8 h-[1px] bg-brass" />
             <p className="text-xs uppercase tracking-[0.25em] font-medium text-stone">
@@ -46,7 +46,7 @@ export default function About() {
         </div>
 
         {/* Master Asymmetric Feature: Atelier Origin & Architectural Visual */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center mb-24">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center mb-12">
           
           {/* Left Visual: Spatial Scenography & Haveli Atelier Plate */}
           <div className="lg:col-span-6 relative">
@@ -143,7 +143,7 @@ export default function About() {
         </div>
 
         {/* The Founding Principals */}
-        <div className="mb-24 pt-12 border-t border-stone/25">
+        <div className="mb-12 pt-8 border-t border-stone/25">
           <div className="max-w-3xl mb-12">
             <p className="text-xs uppercase tracking-[0.25em] font-medium text-stone mb-2">
               Creative Leadership

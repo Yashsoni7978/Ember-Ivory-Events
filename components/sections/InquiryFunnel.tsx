@@ -46,7 +46,7 @@ export default function InquiryFunnel() {
   return (
     <section
       id="inquiry"
-      className="py-24 sm:py-32 bg-parchment relative border-b border-stone/20 overflow-hidden"
+      className="py-12 sm:py-16 bg-parchment relative border-b border-stone/20 overflow-hidden"
     >
       {/* Background texture watermark */}
       <div

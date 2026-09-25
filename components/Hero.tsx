@@ -29,7 +29,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative min-h-[92vh] pt-28 pb-16 flex items-end border-b border-stone/20 bg-parchment overflow-hidden">
+    <section className="relative min-h-[75vh] pt-20 pb-10 flex items-end border-b border-stone/20 bg-parchment overflow-hidden">
       {/* Background subtle noise/grain texture and watermarks */}
       <div
         className="absolute inset-0 opacity-[0.03] pointer-events-none mix-blend-multiply"
@@ -45,7 +45,7 @@ export default function Hero() {
           
           {/* Asymmetric Left Column: Sits in lower third, invitation card feeling */}
           <motion.div
-            className="lg:col-span-7 flex flex-col justify-end pt-12 lg:pt-24"
+            className="lg:col-span-7 flex flex-col justify-end pt-4 lg:pt-8"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
@@ -69,14 +69,14 @@ export default function Hero() {
             {/* Signature hairline divider */}
             <motion.div
               variants={itemVariants}
-              className="my-8 w-24 h-[1px] bg-oxblood"
+              className="my-6 w-24 h-[1px] bg-oxblood"
               role="separator"
             />
 
             {/* Editorial Description */}
             <motion.p
               variants={itemVariants}
-              className="text-base sm:text-lg text-ink/85 font-light leading-relaxed max-w-xl mb-10"
+              className="text-base sm:text-lg text-ink/85 font-light leading-relaxed max-w-xl mb-6"
             >
               From private heritage palace buyouts across Rajasthan to high-level
               corporate summits and monumental spatial scenography. We choreograph
@@ -105,7 +105,7 @@ export default function Hero() {
             {/* Subtle credential notes at base */}
             <motion.div
               variants={itemVariants}
-              className="mt-14 pt-6 border-t border-stone/20 flex items-center space-x-8 text-[11px] uppercase tracking-[0.2em] text-stone"
+              className="mt-8 pt-4 border-t border-stone/20 flex items-center space-x-8 text-[11px] uppercase tracking-[0.2em] text-stone"
             >
               <span>Heritage Palaces</span>
               <span className="w-1 h-1 rounded-full bg-stone/40" />

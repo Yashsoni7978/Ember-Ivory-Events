@@ -220,12 +220,12 @@ export default function Portfolio() {
   return (
     <section
       id="portfolio"
-      className="py-24 sm:py-32 bg-parchment relative border-b border-stone/20"
+      className="py-12 sm:py-16 bg-parchment relative border-b border-stone/20"
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8 md:px-12">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-16 sm:mb-20">
+        <div className="max-w-3xl mb-8 sm:mb-10">
           <div className="flex items-center space-x-3 mb-4">
             <span className="w-8 h-[1px] bg-brass" />
             <p className="text-xs uppercase tracking-[0.25em] font-medium text-stone">
@@ -241,7 +241,7 @@ export default function Portfolio() {
         </div>
 
         {/* Filter Navigation - Clean editorial style, no rounded SaaS pills */}
-        <div className="flex flex-wrap items-center gap-2 sm:gap-6 pb-6 mb-12 border-b border-stone/20 text-xs tracking-[0.18em] uppercase font-medium">
+        <div className="flex flex-wrap items-center gap-2 sm:gap-6 pb-6 mb-6 border-b border-stone/20 text-xs tracking-[0.18em] uppercase font-medium">
           {[
             { id: "all", label: "All Commissions" },
             { id: "weddings", label: "Weddings" },
@@ -378,7 +378,7 @@ export default function Portfolio() {
         </div>
 
         {/* Archival Note & Consultation Callout */}
-        <div className="mt-20 p-8 sm:p-12 bg-bone border border-stone/20 flex flex-col md:flex-row items-center justify-between gap-8">
+        <div className="mt-10 p-8 sm:p-12 bg-bone border border-stone/20 flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="max-w-2xl">
             <div className="flex items-center space-x-2 mb-2">
               <ShieldCheck className="w-4 h-4 text-brass" />

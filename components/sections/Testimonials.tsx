@@ -78,12 +78,12 @@ export default function Testimonials() {
   return (
     <section
       id="testimonials"
-      className="py-24 sm:py-32 bg-parchment relative border-b border-stone/20 overflow-hidden"
+      className="py-12 sm:py-16 bg-parchment relative border-b border-stone/20 overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8 md:px-12">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-16 sm:mb-20">
+        <div className="max-w-3xl mb-8 sm:mb-10">
           <div className="flex items-center space-x-3 mb-4">
             <span className="w-8 h-[1px] bg-brass" />
             <p className="text-xs uppercase tracking-[0.25em] font-medium text-stone">
@@ -99,7 +99,7 @@ export default function Testimonials() {
         </div>
 
         {/* Featured Centerpiece Letter: The Royal Samode Commission */}
-        <div className="bg-bone border border-stone/30 p-8 sm:p-12 md:p-16 shadow-sm mb-20 relative">
+        <div className="bg-bone border border-stone/30 p-8 sm:p-12 md:p-16 shadow-sm mb-10 relative">
           
           {/* Deckle-edge archival watermark */}
           <div className="absolute top-6 right-6 sm:top-10 sm:right-10 flex items-center space-x-2 text-stone/40 pointer-events-none">
@@ -171,7 +171,7 @@ export default function Testimonials() {
         </div>
 
         {/* Grid of 4 Patron Endorsements Across Verticals */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
           {testimonialsList.map((item) => (
             <article
               key={item.id}

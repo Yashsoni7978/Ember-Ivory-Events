@@ -423,12 +423,12 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="py-24 sm:py-32 bg-parchment relative border-b border-stone/20"
+      className="py-12 sm:py-16 bg-parchment relative border-b border-stone/20"
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8 md:px-12">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-16 sm:mb-20">
+        <div className="max-w-3xl mb-8 sm:mb-10">
           <div className="flex items-center space-x-3 mb-4">
             <span className="w-8 h-[1px] bg-brass" />
             <p className="text-xs uppercase tracking-[0.25em] font-medium text-stone">
@@ -444,7 +444,7 @@ export default function Services() {
         </div>
 
         {/* Tab Selector Nav - Editorial styling */}
-        <div className="border-b border-stone/25 mb-12 overflow-x-auto scrollbar-none">
+        <div className="border-b border-stone/25 mb-6 overflow-x-auto scrollbar-none">
           <div className="flex space-x-2 sm:space-x-8 min-w-max pb-1" role="tablist">
             {servicesData.map((service) => {
               const isActive = activeTab === service.id;
@@ -720,7 +720,7 @@ export default function Services() {
         </div>
 
         {/* Extended Section 1B: The 4-Phase Atelier Commission Protocol */}
-        <div className="mb-24 pt-12 border-t border-stone/25">
+        <div className="mb-12 pt-8 border-t border-stone/25">
           <div className="max-w-3xl mb-12">
             <div className="flex items-center space-x-3 mb-3">
               <span className="w-6 h-[1px] bg-brass" />
@@ -829,7 +829,7 @@ export default function Services() {
         </div>
 
         {/* All 5 Services Full Catalog Cards (With Bespoke Photography per Card) */}
-        <div className="mt-16 pt-12 border-t border-stone/25">
+        <div className="mt-10 pt-8 border-t border-stone/25">
           <div className="flex items-center justify-between mb-8 pb-3 border-b border-stone/20">
             <div>
               <h3 className="font-serif text-xl sm:text-2xl text-ink font-normal">

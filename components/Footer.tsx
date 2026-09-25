@@ -15,7 +15,7 @@ export default function Footer() {
       />
 
       {/* Top Banner: Editorial Philosophy Invitation */}
-      <div className="border-b border-bone/15 py-16 sm:py-20 relative z-10">
+      <div className="border-b border-bone/15 py-10 sm:py-12 relative z-10">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 md:px-12 flex flex-col md:flex-row md:items-end justify-between gap-8">
           <div className="max-w-2xl">
             <div className="flex items-center space-x-3 mb-3">
@@ -41,7 +41,7 @@ export default function Footer() {
       </div>
 
       {/* Main 4-Column Directory */}
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 md:px-12 py-16 sm:py-20 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 md:px-12 py-10 sm:py-12 relative z-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-16">
           
           {/* Column 1: Brand & Atelier Address (4 cols) */}
